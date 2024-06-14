@@ -1,0 +1,47 @@
+body{
+    background: black;
+}
+
+
+.tasbeh{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.counter{
+    font-size: 72px;
+    font-family: monospace;
+    color: blue;
+    font-family: monospace;
+}
+
+.count{
+    color: green;
+    font-size: 72px;
+    margin-top: -40px;
+}
+
+.ments{
+    display: flex;
+    gap: 10px;
+}
+
+.click{
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    background: black;
+    border: 1px solid wheat;
+    /* color: aliceblue; */
+    font-size: 16px;
+    transition: .7s;
+    
+}
+
+.click:hover{
+    cursor: pointer;
+    font-size: 20px;
+    color: aliceblue;
+}
